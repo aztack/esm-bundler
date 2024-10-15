@@ -1,0 +1,14 @@
+{
+  "name": "esm-bundler",
+  "version": "1.0.0",
+  "description": "Simple ESM Bundler with Deno",
+  "main": "index.js",
+  "scripts": {
+    "test": "deno -A index.js --entry=https://esm.sh/sass --out=./dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

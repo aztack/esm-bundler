@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "esbuild": "npm:esbuild"
+  },
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "install": "deno install --global -A -f index.js --name=esm-bundler",
+    "test": "deno -A index.js --entry=https://esm.sh/sass --out=./dist/bundle.js"
+  }
+}
