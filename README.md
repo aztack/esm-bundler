@@ -12,5 +12,11 @@ deno task install
 ## Usage
 
 ```bash
-deno index.js --entry=https://esm.sh/<package> --out=./dist/bundle.js
+esm-bundler -entry=https://esm.sh/<package> --out=./dist/bundle.js
+```
+
+## Example
+
+```bash
+esm-bundler -entry=https://esm.sh/sass --out=./dist/sass-esm.js
 ```
